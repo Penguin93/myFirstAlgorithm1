@@ -1,18 +1,11 @@
-#foodprice1=7
-#foodprice2=10
-#totalcost=foodprice1+foodprice2
-#print (totalcost)
-
-#------------------------------------------------
 #calculateTotal
-foodprice1 = input("First choice ")
-foodprice2 = input("Second choice ")
-a = float(foodprice1)
-b = float(foodprice2)
+menu_items = ['a', 'b']
+menu_prices = [7.50, 9.00]
+
 def add(a, b):
     result = a + b
     return result
-total = add(a, b)
+total = add('a', 'b')
 result = float(total)
 #print(result)
 
